@@ -111,14 +111,4 @@ features:
 study hours:
 target:
 pass or fail
-# import libraries
-import pandas as pd
-import numpy as np
 
-# create dataset
-data={
-         "study_hours":[1,2,3,4,5,6,7,8,9,10],
-         "pass":[0,0,0,0,1,1,1,1,1,1]
-}
-df=pd.DataFrame(data)
-df
